@@ -1,5 +1,5 @@
 
-### 4. Database Setup
+### Database Setup
 
 - Create the database and tables using the provided SQL script:
 
@@ -11,7 +11,7 @@ mysql -u your_db_user -p garbage_routes < db_setup.sql
   - **Username:** `admin`
   - **Password:** `admin`
 
-### 5. Run the App
+### Run the App
 
 - Deploy on your local web server (Apache, Nginx, etc.) and visit the site in your browser.
 
@@ -33,13 +33,7 @@ mysql -u your_db_user -p garbage_routes < db_setup.sql
 
 ---
 
-## License
-
-MIT License
-
----
-
 ## About
 
-SanitationRoutePlanner is a personal side project by [Your Name] to help modernize route planning in the waste industry.  
+SanitationRoutePlanner is a personal side project by Agarhouse Development to help modernize route planning in the waste industry.  
 Feel free to fork, contribute, or reach out with ideas!
