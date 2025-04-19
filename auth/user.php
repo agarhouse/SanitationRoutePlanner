@@ -10,6 +10,7 @@ $db_pass = $_ENV['DB_PASS'];
 
 // DB connection helper
 function get_db() {
+    global $db_host, $db_name, $db_user, $db_pass;
     static $db = null;
     if ($db === null) {
         $db = new PDO('mysql:host=' . $db_host . ';dbname=' . $db_name . ';charset=utf8mb4', $db_user, $db_pass);
